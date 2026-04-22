@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 
 use-ocr/output/
+read-paper/output/
