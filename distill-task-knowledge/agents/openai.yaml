@@ -1,0 +1,4 @@
+interface:
+  display_name: "Task Knowledge Workflow"
+  short_description: "Orchestrate records, distillation, curation, and audit"
+  default_prompt: "Use $distill-task-knowledge to run the full record-to-knowledge lifecycle for this task."

@@ -1,0 +1,22 @@
+{
+  "name": "distill-task-knowledge",
+  "version": "0.1.0",
+  "description": "A task-recording and knowledge-distillation skill tree with transactional filesystem curation.",
+  "author": {
+    "name": "0xNullPath"
+  },
+  "license": "MIT",
+  "keywords": ["knowledge", "tasks", "distillation", "memory", "curation"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Task Knowledge Workflow",
+    "shortDescription": "Record tasks and distill a curated knowledge tree.",
+    "longDescription": "Runs an auditable task lifecycle through dedicated record, distill, curate, and recovery skills backed by one transactional filesystem store.",
+    "developerName": "0xNullPath",
+    "category": "Productivity",
+    "capabilities": ["Write"],
+    "defaultPrompt": [
+      "Run the full record-to-knowledge lifecycle for this task."
+    ]
+  }
+}

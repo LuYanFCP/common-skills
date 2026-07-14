@@ -1,0 +1,6 @@
+interface:
+  display_name: "Knowledge Store Auditor"
+  short_description: "Audit, repair, and recover the knowledge store"
+  default_prompt: "Use $task-knowledge-audit for the delegated store-health phase."
+policy:
+  allow_implicit_invocation: false

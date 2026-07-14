@@ -1,0 +1,6 @@
+interface:
+  display_name: "Task Knowledge Record"
+  short_description: "Create, append, seal, and archive task records"
+  default_prompt: "Use $task-knowledge-record for the delegated record phase of this task."
+policy:
+  allow_implicit_invocation: false

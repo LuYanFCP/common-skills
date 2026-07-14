@@ -1,0 +1,4 @@
+interface:
+  display_name: "Task Knowledge Workflow"
+  short_description: "Orchestrate the full task knowledge lifecycle"
+  default_prompt: "Use $task-knowledge to run the full record-to-knowledge lifecycle for this task."

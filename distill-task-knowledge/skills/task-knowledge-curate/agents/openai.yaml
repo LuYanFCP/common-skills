@@ -1,0 +1,6 @@
+interface:
+  display_name: "Knowledge Tree Curator"
+  short_description: "Apply bound candidates to the knowledge tree"
+  default_prompt: "Use $task-knowledge-curate for the delegated tree-curation phase."
+policy:
+  allow_implicit_invocation: false

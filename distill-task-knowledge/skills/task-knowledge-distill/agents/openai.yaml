@@ -1,0 +1,6 @@
+interface:
+  display_name: "Task Knowledge Distiller"
+  short_description: "Turn sealed evidence into bound knowledge candidates"
+  default_prompt: "Use $task-knowledge-distill for the delegated candidate-distillation phase."
+policy:
+  allow_implicit_invocation: false
